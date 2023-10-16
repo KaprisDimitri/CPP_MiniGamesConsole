@@ -34,9 +34,10 @@ static void PrintStringColored(string toPrint)
 
 static void ColorConsolText(int color)
 {
-    if (color < 0 || color > 255) { return; }
+    if (color < 0 || color > 15) { return; }
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hConsole, 10);
+
+    SetConsoleTextAttribute(hConsole, color);
 }
 
 static string AskUserInputString()
@@ -45,7 +46,6 @@ static string AskUserInputString()
     cin >> toReturn;
     return toReturn;
 }
-
 
 static int GetIndexFromUserInputSpecifiqueStrings(string askSentence, vector<string> listKeyChoises, vector<string> listOfChoises)
 {
