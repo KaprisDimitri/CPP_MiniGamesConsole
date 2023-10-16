@@ -1,0 +1,11 @@
+﻿  CalculationUtility.cpp
+  ConsoleUtility.cpp
+  Main.cpp
+D:\VisualProject\Cpp_MiniGamesConsole\Cpp_MiniGamesConsole\RoleTheDice.cpp(72,2): warning C4091: 'static ' : ignoré à gauche de 'RoleTheDice_FindTheGoodFace' quand aucune variable n'est déclarée
+D:\VisualProject\Cpp_MiniGamesConsole\Cpp_MiniGamesConsole\RoleTheDice.cpp(166,2): warning C4091: 'static ' : ignoré à gauche de 'RoleTheDice_BeTheNearest' quand aucune variable n'est déclarée
+  RoleTheDice.cpp
+D:\VisualProject\Cpp_MiniGamesConsole\Cpp_MiniGamesConsole\RoleTheDice.cpp(72,2): warning C4091: 'static ' : ignoré à gauche de 'RoleTheDice_FindTheGoodFace' quand aucune variable n'est déclarée
+D:\VisualProject\Cpp_MiniGamesConsole\Cpp_MiniGamesConsole\RoleTheDice.cpp(166,2): warning C4091: 'static ' : ignoré à gauche de 'RoleTheDice_BeTheNearest' quand aucune variable n'est déclarée
+  StringUtility.cpp
+  Génération de code en cours...
+  Cpp_MiniGamesConsole.vcxproj -> D:\VisualProject\Cpp_MiniGamesConsole\x64\Debug\Cpp_MiniGamesConsole.exe
