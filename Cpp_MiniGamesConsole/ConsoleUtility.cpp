@@ -8,7 +8,7 @@ using namespace std;
 #endif
 #ifndef CalculationUtility_INCLUDED
 #include "CalculationUtility.cpp" 
-#endif
+#endif 
 
 #ifndef ConsoleUtility_INCLUDED
 #define ConsoleUtility_INCLUDED
@@ -34,9 +34,17 @@ static void PrintStringColored(string toPrint)
 
 static void ColorConsolText(int color)
 {
-    if (color < 0 || color > 255) { return; }
+    if (color < 0 || color > 15) { return; }
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hConsole, 10);
+
+    SetConsoleTextAttribute(hConsole, color);
+}
+
+static void ColorConsolTextDefault()
+{
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SetConsoleTextAttribute(hConsole, 15);
 }
 
 static string AskUserInputString()
